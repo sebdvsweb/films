@@ -1,0 +1,678 @@
+{
+    "Search":[
+      {
+         "Title":"The Lord of the Rings: The Fellowship of the Ring",
+         "Year":"2001",
+         "imdbID":"tt0120737",
+         "Type":"movie",
+         "Poster":"https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_SX300.jpg"
+      },
+      {
+         "Title":"The Lord of the Rings: The Return of the King",
+         "Year":"2003",
+         "imdbID":"tt0167260",
+         "Type":"movie",
+         "Poster":"https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg"
+      },
+      {
+         "Title":"The Lord of the Rings: The Two Towers",
+         "Year":"2002",
+         "imdbID":"tt0167261",
+         "Type":"movie",
+         "Poster":"https://m.media-amazon.com/images/M/MV5BZGMxZTdjZmYtMmE2Ni00ZTdkLWI5NTgtNjlmMjBiNzU2MmI5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg"
+      },
+      {
+         "Title":"The Lord of the Rings",
+         "Year":"1978",
+         "imdbID":"tt0077869",
+         "Type":"movie",
+         "Poster":"https://m.media-amazon.com/images/M/MV5BOGMyNWJhZmYtNGQxYi00Y2ZjLWJmNjktNTgzZWJjOTg4YjM3L2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"
+      },
+      {
+         "Title":"The Lord of the Rings: The Two Towers",
+         "Year":"2002",
+         "imdbID":"tt0347436",
+         "Type":"game",
+         "Poster":"https://m.media-amazon.com/images/M/MV5BODI0Mzk3OTM4N15BMl5BanBnXkFtZTgwMTM4MTk4MDE@._V1_SX300.jpg"
+      },
+      {
+         "Title":"The Lord of the Rings: The Return of the King",
+         "Year":"2003",
+         "imdbID":"tt0387360",
+         "Type":"game",
+         "Poster":"https://m.media-amazon.com/images/M/MV5BMjE5NTQwMTY5MV5BMl5BanBnXkFtZTgwODcwNjUwMTE@._V1_SX300.jpg"
+      },
+      {
+         "Title":"The Lord of the Rings: The Battle for Middle-Earth",
+         "Year":"2004",
+         "imdbID":"tt0412935",
+         "Type":"game",
+         "Poster":"https://m.media-amazon.com/images/M/MV5BYWI5ODU0ZGEtYTA4YS00YzliLWJiZjEtYThkNTBkNTY1Y2FhXkEyXkFqcGdeQXVyNDAzNzA0MzE@._V1_SX300.jpg"
+      },
+      {
+         "Title":"The Lord of the Rings: The Battle for Middle-Earth II",
+         "Year":"2006",
+         "imdbID":"tt0760172",
+         "Type":"game",
+         "Poster":"https://m.media-amazon.com/images/M/MV5BZTFlNTg5NzgtZmUyNS00MWJjLWFmNDktZmNiODEzZWY2YjgwXkEyXkFqcGdeQXVyNDAzNzA0MzE@._V1_SX300.jpg"
+      },
+      {
+         "Title":"The Lord of the Rings: The Battle for Middle-earth II - The Rise of the Witch-king",
+         "Year":"2006",
+         "imdbID":"tt1058040",
+         "Type":"game",
+         "Poster":"https://m.media-amazon.com/images/M/MV5BMjYwMDIxNjg3MV5BMl5BanBnXkFtZTgwMTk5MTE4MDE@._V1_SX300.jpg"
+      },
+      {
+         "Title":"The Lord of the Rings: The Third Age",
+         "Year":"2004",
+         "imdbID":"tt0415947",
+         "Type":"game",
+         "Poster":"https://m.media-amazon.com/images/M/MV5BMTMwMzM2NzU1M15BMl5BanBnXkFtZTcwOTQ3MzcyMQ@@._V1_SX300.jpg"
+      },
+       {
+          "Title":"Star Wars",
+          "Year":"1977",
+          "imdbID":"tt0076759",
+          "Type":"movie",
+          "Poster":"https://m.media-amazon.com/images/M/MV5BNzVlY2MwMjktM2E4OS00Y2Y3LWE3ZjctYzhkZGM3YzA1ZWM2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg"
+       },
+       {
+          "Title":"Star Wars: Episode V - The Empire Strikes Back",
+          "Year":"1980",
+          "imdbID":"tt0080684",
+          "Type":"movie",
+          "Poster":"https://m.media-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00NjZmLTg5NGItZDNiZjU5NTU4OTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg"
+       },
+       {
+          "Title":"Star Wars: Episode VI - Return of the Jedi",
+          "Year":"1983",
+          "imdbID":"tt0086190",
+          "Type":"movie",
+          "Poster":"https://m.media-amazon.com/images/M/MV5BOWZlMjFiYzgtMTUzNC00Y2IzLTk1NTMtZmNhMTczNTk0ODk1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"
+       },
+       {
+          "Title":"Star Wars: Episode VII - The Force Awakens",
+          "Year":"2015",
+          "imdbID":"tt2488496",
+          "Type":"movie",
+          "Poster":"https://m.media-amazon.com/images/M/MV5BOTAzODEzNDAzMl5BMl5BanBnXkFtZTgwMDU1MTgzNzE@._V1_SX300.jpg"
+       },
+       {
+          "Title":"Star Wars: Episode I - The Phantom Menace",
+          "Year":"1999",
+          "imdbID":"tt0120915",
+          "Type":"movie",
+          "Poster":"https://m.media-amazon.com/images/M/MV5BYTRhNjcwNWQtMGJmMi00NmQyLWE2YzItODVmMTdjNWI0ZDA2XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"
+       },
+       {
+          "Title":"Star Wars: Episode III - Revenge of the Sith",
+          "Year":"2005",
+          "imdbID":"tt0121766",
+          "Type":"movie",
+          "Poster":"https://m.media-amazon.com/images/M/MV5BNTc4MTc3NTQ5OF5BMl5BanBnXkFtZTcwOTg0NjI4NA@@._V1_SX300.jpg"
+       },
+       {
+          "Title":"Star Wars: Episode II - Attack of the Clones",
+          "Year":"2002",
+          "imdbID":"tt0121765",
+          "Type":"movie",
+          "Poster":"https://m.media-amazon.com/images/M/MV5BMDAzM2M0Y2UtZjRmZi00MzVlLTg4MjEtOTE3NzU5ZDVlMTU5XkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_SX300.jpg"
+       },
+       {
+          "Title":"Star Wars: Episode VIII - The Last Jedi",
+          "Year":"2017",
+          "imdbID":"tt2527336",
+          "Type":"movie",
+          "Poster":"https://m.media-amazon.com/images/M/MV5BMjQ1MzcxNjg4N15BMl5BanBnXkFtZTgwNzgwMjY4MzI@._V1_SX300.jpg"
+       },
+       {
+          "Title":"Rogue One: A Star Wars Story",
+          "Year":"2016",
+          "imdbID":"tt3748528",
+          "Type":"movie",
+          "Poster":"https://m.media-amazon.com/images/M/MV5BMjEwMzMxODIzOV5BMl5BanBnXkFtZTgwNzg3OTAzMDI@._V1_SX300.jpg"
+       },
+       {
+          "Title":"Star Wars: Episode IX - The Rise of Skywalker",
+          "Year":"2019",
+          "imdbID":"tt2527338",
+          "Type":"movie",
+          "Poster":"https://m.media-amazon.com/images/M/MV5BMDljNTQ5ODItZmQwMy00M2ExLTljOTQtZTVjNGE2NTg0NGIxXkEyXkFqcGdeQXVyODkzNTgxMDg@._V1_SX300.jpg"
+       },
+       {
+         "Title":"Mission: Impossible - Ghost Protocol",
+         "Year":"2011",
+         "imdbID":"tt1229238",
+         "Type":"movie",
+         "Poster":"https://m.media-amazon.com/images/M/MV5BMTY4MTUxMjQ5OV5BMl5BanBnXkFtZTcwNTUyMzg5Ng@@._V1_SX300.jpg"
+      },
+      {
+         "Title":"Mission: Impossible - Ghost Protocol",
+         "Year":"2011",
+         "imdbID":"tt1229238",
+         "Type":"movie",
+         "Poster":"https://m.media-amazon.com/images/M/MV5BMTY4MTUxMjQ5OV5BMl5BanBnXkFtZTcwNTUyMzg5Ng@@._V1_SX300.jpg"
+      },
+      {
+         "Title":"Mission: Impossible",
+         "Year":"1996",
+         "imdbID":"tt0117060",
+         "Type":"movie",
+         "Poster":"https://m.media-amazon.com/images/M/MV5BMTc3NjI2MjU0Nl5BMl5BanBnXkFtZTgwNDk3ODYxMTE@._V1_SX300.jpg"
+      },
+      {
+         "Title":"Mission: Impossible - Rogue Nation",
+         "Year":"2015",
+         "imdbID":"tt2381249",
+         "Type":"movie",
+         "Poster":"https://m.media-amazon.com/images/M/MV5BOTFmNDA3ZjMtN2Y0MC00NDYyLWFlY2UtNTQ4OTQxMmY1NmVjXkEyXkFqcGdeQXVyNTg4NDQ4NDY@._V1_SX300.jpg"
+      },
+      {
+         "Title":"Mission: Impossible III",
+         "Year":"2006",
+         "imdbID":"tt0317919",
+         "Type":"movie",
+         "Poster":"https://m.media-amazon.com/images/M/MV5BOThhNTA1YjItYzk2Ny00M2Y1LWJlYWUtZDQyZDU0YmY5Y2M5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg"
+      },
+      {
+         "Title":"Mission: Impossible II",
+         "Year":"2000",
+         "imdbID":"tt0120755",
+         "Type":"movie",
+         "Poster":"https://m.media-amazon.com/images/M/MV5BN2RkYWVkZDQtNTMxMi00NWQ4LWE2ODctNmQzOWM2NjQzYzdlXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg"
+      },
+      {
+         "Title":"Mission: Impossible - Fallout",
+         "Year":"2018",
+         "imdbID":"tt4912910",
+         "Type":"movie",
+         "Poster":"https://m.media-amazon.com/images/M/MV5BNjRlZmM0ODktY2RjNS00ZDdjLWJhZGYtNDljNWZkMGM5MTg0XkEyXkFqcGdeQXVyNjAwMjI5MDk@._V1_SX300.jpg"
+      },
+      {
+         "Title":"Mission: Impossible",
+         "Year":"1966–1973",
+         "imdbID":"tt0060009",
+         "Type":"series",
+         "Poster":"https://m.media-amazon.com/images/M/MV5BMTg3MDQ4ODQwNF5BMl5BanBnXkFtZTcwODMwODM0MQ@@._V1_SX300.jpg"
+      },
+      {
+         "Title":"Mission: Impossible",
+         "Year":"1988–1990",
+         "imdbID":"tt0094511",
+         "Type":"series",
+         "Poster":"https://m.media-amazon.com/images/M/MV5BZTBkMzk3NTgtYzY5Ni00MzYxLWJjYzEtMjEyYjgzNGFlNWVhXkEyXkFqcGdeQXVyMTAwMzM3NDI3._V1_SX300.jpg"
+      },
+      {
+         "Title":"Mission Impossible Versus the Mob",
+         "Year":"1969",
+         "imdbID":"tt0063310",
+         "Type":"movie",
+         "Poster":"https://m.media-amazon.com/images/M/MV5BM2RiM2UzNmQtM2UxNS00NWI1LTkxZmEtMzAxM2M4OGY4OTBhXkEyXkFqcGdeQXVyMjUwMDUwNA@@._V1_SX300.jpg"
+      },
+       {
+        "Title":"The Avengers",
+        "Year":"2012",
+        "imdbID":"tt0848228",
+        "Type":"movie",
+        "Poster":"https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg"
+     },
+     {
+        "Title":"Avengers: Endgame",
+        "Year":"2019",
+        "imdbID":"tt4154796",
+        "Type":"movie",
+        "Poster":"https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_SX300.jpg"
+     },
+     {
+        "Title":"Avengers: Infinity War",
+        "Year":"2018",
+        "imdbID":"tt4154756",
+        "Type":"movie",
+        "Poster":"https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_SX300.jpg"
+     },
+     {
+        "Title":"Avengers: Age of Ultron",
+        "Year":"2015",
+        "imdbID":"tt2395427",
+        "Type":"movie",
+        "Poster":"https://m.media-amazon.com/images/M/MV5BMTM4OGJmNWMtOTM4Ni00NTE3LTg3MDItZmQxYjc4N2JhNmUxXkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_SX300.jpg"
+     },
+     {
+        "Title":"The Avengers",
+        "Year":"1998",
+        "imdbID":"tt0118661",
+        "Type":"movie",
+        "Poster":"https://m.media-amazon.com/images/M/MV5BYWE1NTdjOWQtYTQ2Ny00Nzc5LWExYzMtNmRlOThmOTE2N2I4XkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_SX300.jpg"
+     },
+     {
+        "Title":"The Avengers: Earth's Mightiest Heroes",
+        "Year":"2010–2012",
+        "imdbID":"tt1626038",
+        "Type":"series",
+        "Poster":"https://m.media-amazon.com/images/M/MV5BYzA4ZjVhYzctZmI0NC00ZmIxLWFmYTgtOGIxMDYxODhmMGQ2XkEyXkFqcGdeQXVyNjExODE1MDc@._V1_SX300.jpg"
+     },
+     {
+        "Title":"Ultimate Avengers: The Movie",
+        "Year":"2006",
+        "imdbID":"tt0491703",
+        "Type":"movie",
+        "Poster":"https://m.media-amazon.com/images/M/MV5BMTYyMjk0NTMwMl5BMl5BanBnXkFtZTgwNzY0NjAwNzE@._V1_SX300.jpg"
+     },
+     {
+        "Title":"Ultimate Avengers II",
+        "Year":"2006",
+        "imdbID":"tt0803093",
+        "Type":"movie",
+        "Poster":"https://m.media-amazon.com/images/M/MV5BZjI3MTI5ZTYtZmNmNy00OGZmLTlhNWMtNjZiYmYzNDhlOGRkL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"
+     },
+     {
+        "Title":"The Avengers",
+        "Year":"1961–1969",
+        "imdbID":"tt0054518",
+        "Type":"series",
+        "Poster":"https://m.media-amazon.com/images/M/MV5BZWQwZTdjMDUtNTY1YS00MDI0LWFkNjYtZDA4MDdmZjdlMDRlXkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_SX300.jpg"
+     },
+     {
+        "Title":"Avengers Assemble",
+        "Year":"2012–2019",
+        "imdbID":"tt2455546",
+        "Type":"series",
+        "Poster":"https://m.media-amazon.com/images/M/MV5BMTY0NTUyMDQwOV5BMl5BanBnXkFtZTgwNjAwMTA0MDE@._V1_SX300.jpg"
+     },
+     {
+        "Title":"The Lord of the Rings: The Fellowship of the Ring",
+        "Year":"2001",
+        "imdbID":"tt0120737",
+        "Type":"movie",
+        "Poster":"https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_SX300.jpg"
+     },
+     {
+        "Title":"The Lord of the Rings: The Fellowship of the Ring",
+        "Year":"2002",
+        "imdbID":"tt0311455",
+        "Type":"game",
+        "Poster":"https://m.media-amazon.com/images/M/MV5BYTM3ZmU1NTAtYjViYy00ZmJlLWE1NjgtNWI2OTllMGZmZTVkXkEyXkFqcGdeQXVyMjMyNTkxNzY@._V1_SX300.jpg"
+     },
+     {
+        "Title":"The Lord of the Rings: The War of the Ring",
+        "Year":"2003",
+        "imdbID":"tt0406040",
+        "Type":"game",
+        "Poster":"https://m.media-amazon.com/images/M/MV5BMGQxNzAyZjMtMmVhNS00YTcwLTg2MDctOTNlNmFjZDMxZWM2XkEyXkFqcGdeQXVyMjMyNTkxNzY@._V1_SX300.jpg"
+     },
+     {
+        "Title":"The Lord of the Rings: The Fellowship of the Ring",
+        "Year":"2002",
+        "imdbID":"tt8672174",
+        "Type":"game",
+        "Poster":"https://m.media-amazon.com/images/M/MV5BZDBmNjVmYTEtOTU5OC00NDVlLWJlNTAtMTBjODk2NGI5M2EyXkEyXkFqcGdeQXVyOTcyOTc4Mjc@._V1_SX300.jpg"
+     },
+     {
+        "Title":"National Geographic: Beyond the Movie - The Lord of the Rings: The Fellowship of the Ring",
+        "Year":"2001",
+        "imdbID":"tt10127200",
+        "Type":"movie",
+        "Poster":"https://m.media-amazon.com/images/M/MV5BMThhMGMwZTItYzc1Yy00YzgyLWIxMGMtNDFjZWVjMjM1MjMwXkEyXkFqcGdeQXVyODc5Mjc4Nzg@._V1_SX300.jpg"
+     },
+     {
+        "Title":"The Lord of the Rings: The Fellowship of the Ring",
+        "Year":"2002",
+        "imdbID":"tt9674044",
+        "Type":"game",
+        "Poster":"N/A"
+     },
+     {
+        "Title":"Peppa Pig",
+        "Year":"2004–",
+        "imdbID":"tt0426769",
+        "Type":"series",
+        "Poster":"https://m.media-amazon.com/images/M/MV5BNDUyODQ0NjAtYTZjMS00MzBjLWI1ZjYtMzBhYzgyYzdjMTE4XkEyXkFqcGdeQXVyMzU5OTE2NTI@._V1_SX300.jpg"
+     },
+     {
+        "Title":"Peppa Pig: My First Cinema Experience",
+        "Year":"2017",
+        "imdbID":"tt6771444",
+        "Type":"movie",
+        "Poster":"https://m.media-amazon.com/images/M/MV5BM2I4OWI3MGUtZmUzMC00NjFhLWJlYTQtNjI1ZjFkOTc4Y2YwXkEyXkFqcGdeQXVyMDEzNzk1OQ@@._V1_SX300.jpg"
+     },
+     {
+        "Title":"Peppa Pig: Festival of Fun",
+        "Year":"2019",
+        "imdbID":"tt10112466",
+        "Type":"movie",
+        "Poster":"https://m.media-amazon.com/images/M/MV5BYzQ0M2ZjODEtNzViNS00MGY0LTk2NDctNzViZDBjMmExMWFlXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_SX300.jpg"
+     },
+     {
+        "Title":"Peppa Pig: The Golden Boots",
+        "Year":"2015",
+        "imdbID":"tt4373888",
+        "Type":"movie",
+        "Poster":"https://m.media-amazon.com/images/M/MV5BMTA5NjA2OTA5NDFeQTJeQWpwZ15BbWU4MDEyNzU3Mjgx._V1_SX300.jpg"
+     },
+     {
+        "Title":"Peppa Pig: Muddy Puddles and Other Stories",
+        "Year":"2012",
+        "imdbID":"tt2406728",
+        "Type":"movie",
+        "Poster":"https://m.media-amazon.com/images/M/MV5BMjEzNzU2ODM0Nl5BMl5BanBnXkFtZTgwNzc0NzA2MDE@._V1_SX300.jpg"
+     },
+     {
+        "Title":"Peppa Pig: Flying a Kite and Other Stories",
+        "Year":"2012",
+        "imdbID":"tt2362978",
+        "Type":"movie",
+        "Poster":"https://m.media-amazon.com/images/M/MV5BNzg4Njg1NDgzOF5BMl5BanBnXkFtZTgwNjUzNzA2MDE@._V1_SX300.jpg"
+     },
+     {
+        "Title":"Peppa Pig: Peppa's Christmas",
+        "Year":"2007",
+        "imdbID":"tt4055734",
+        "Type":"movie",
+        "Poster":"https://m.media-amazon.com/images/M/MV5BMTA3ODUwMTA1OTBeQTJeQWpwZ15BbWU4MDQ3MDM2MDgx._V1_SX300.jpg"
+     },
+     {
+        "Title":"Peppa Pig: My Birthday Party",
+        "Year":"2002",
+        "imdbID":"tt3607810",
+        "Type":"movie",
+        "Poster":"https://m.media-amazon.com/images/M/MV5BMTgzMTAwNDczMF5BMl5BanBnXkFtZTgwNzUzMzU0MTE@._V1_SX300.jpg"
+     },
+     {
+        "Title":"Peppa Pig New Shoes and Other Stories",
+        "Year":"2003",
+        "imdbID":"tt4055348",
+        "Type":"movie",
+        "Poster":"N/A"
+     },
+     {
+        "Title":"Peppa Pig: Vacanze Al Sole E Altre Storie",
+        "Year":"2014",
+        "imdbID":"tt6449464",
+        "Type":"movie",
+        "Poster":"N/A"
+     },
+     {
+        "Title":"Spider-Man",
+        "Year":"2002",
+        "imdbID":"tt0145487",
+        "Type":"movie",
+        "Poster":"https://m.media-amazon.com/images/M/MV5BZDEyN2NhMjgtMjdhNi00MmNlLWE5YTgtZGE4MzNjMTRlMGEwXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_SX300.jpg"
+     },
+     {
+        "Title":"The Amazing Spider-Man",
+        "Year":"2012",
+        "imdbID":"tt0948470",
+        "Type":"movie",
+        "Poster":"https://m.media-amazon.com/images/M/MV5BMjMyOTM4MDMxNV5BMl5BanBnXkFtZTcwNjIyNzExOA@@._V1_SX300.jpg"
+     },
+     {
+        "Title":"Spider-Man 2",
+        "Year":"2004",
+        "imdbID":"tt0316654",
+        "Type":"movie",
+        "Poster":"https://m.media-amazon.com/images/M/MV5BMzY2ODk4NmUtOTVmNi00ZTdkLTlmOWYtMmE2OWVhNTU2OTVkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+     },
+     {
+        "Title":"Spider-Man: Homecoming",
+        "Year":"2017",
+        "imdbID":"tt2250912",
+        "Type":"movie",
+        "Poster":"https://m.media-amazon.com/images/M/MV5BNTk4ODQ1MzgzNl5BMl5BanBnXkFtZTgwMTMyMzM4MTI@._V1_SX300.jpg"
+     },
+     {
+        "Title":"Spider-Man 3",
+        "Year":"2007",
+        "imdbID":"tt0413300",
+        "Type":"movie",
+        "Poster":"https://m.media-amazon.com/images/M/MV5BYTk3MDljOWQtNGI2My00OTEzLTlhYjQtOTQ4ODM2MzUwY2IwXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SX300.jpg"
+     },
+     {
+        "Title":"Spider-Man: No Way Home",
+        "Year":"2021",
+        "imdbID":"tt10872600",
+        "Type":"movie",
+        "Poster":"https://m.media-amazon.com/images/M/MV5BZWMyYzFjYTYtNTRjYi00OGExLWE2YzgtOGRmYjAxZTU3NzBiXkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_SX300.jpg"
+     },
+     {
+        "Title":"Spider-Man: Into the Spider-Verse",
+        "Year":"2018",
+        "imdbID":"tt4633694",
+        "Type":"movie",
+        "Poster":"https://m.media-amazon.com/images/M/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@._V1_SX300.jpg"
+     },
+     {
+        "Title":"The Amazing Spider-Man 2",
+        "Year":"2014",
+        "imdbID":"tt1872181",
+        "Type":"movie",
+        "Poster":"https://m.media-amazon.com/images/M/MV5BOTA5NDYxNTg0OV5BMl5BanBnXkFtZTgwODE5NzU1MTE@._V1_SX300.jpg"
+     },
+     {
+        "Title":"Spider-Man: Far from Home",
+        "Year":"2019",
+        "imdbID":"tt6320628",
+        "Type":"movie",
+        "Poster":"https://m.media-amazon.com/images/M/MV5BMGZlNTY1ZWUtYTMzNC00ZjUyLWE0MjQtMTMxN2E3ODYxMWVmXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX300.jpg"
+     },
+     {
+        "Title":"Spider-Man: The Animated Series",
+        "Year":"1994–1998",
+        "imdbID":"tt0112175",
+        "Type":"series",
+        "Poster":"https://m.media-amazon.com/images/M/MV5BMmQ1NzBlYmItNmZkZi00OTZkLTg5YTEtNTI5YjczZjk3Yjc1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"
+     },
+  {
+     "Title":"Batman Forever",
+     "Year":"1995",
+     "imdbID":"tt0112462",
+     "Type":"movie",
+     "Poster":"https://m.media-amazon.com/images/M/MV5BNDdjYmFiYWEtYzBhZS00YTZkLWFlODgtY2I5MDE0NzZmMDljXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg"
+  },
+  {
+     "Title":"Batman & Robin",
+     "Year":"1997",
+     "imdbID":"tt0118688",
+     "Type":"movie",
+     "Poster":"https://m.media-amazon.com/images/M/MV5BMGQ5YTM1NmMtYmIxYy00N2VmLWJhZTYtN2EwYTY3MWFhOTczXkEyXkFqcGdeQXVyNTA2NTI0MTY@._V1_SX300.jpg"
+  },
+  {
+     "Title":"The Batman",
+     "Year":"2022",
+     "imdbID":"tt1877830",
+     "Type":"movie",
+     "Poster":"https://m.media-amazon.com/images/M/MV5BMDdmMTBiNTYtMDIzNi00NGVlLWIzMDYtZTk3MTQ3NGQxZGEwXkEyXkFqcGdeQXVyMzMwOTU5MDk@._V1_SX300.jpg"
+  },
+  {
+     "Title":"The Lego Batman Movie",
+     "Year":"2016",
+     "imdbID":"tt4116284",
+     "Type":"movie",
+     "Poster":"https://m.media-amazon.com/images/M/MV5BMTcyNTEyOTY0M15BMl5BanBnXkFtZTgwOTAyNzU3MDI@._V1_SX300.jpg"
+  },
+  {
+     "Title":"Batman: The Animated Series",
+     "Year":"1992–1995",
+     "imdbID":"tt0103359",
+     "Type":"series",
+     "Poster":"https://m.media-amazon.com/images/M/MV5BOTM3MTRkZjQtYjBkMy00YWE1LTkxOTQtNDQyNGY0YjYzNzAzXkEyXkFqcGdeQXVyOTgwMzk1MTA@._V1_SX300.jpg"
+  },
+  {
+     "Title":"Batman: Under the Red Hood",
+     "Year":"2010",
+     "imdbID":"tt1569923",
+     "Type":"movie",
+     "Poster":"https://m.media-amazon.com/images/M/MV5BNmY4ZDZjY2UtOWFiYy00MjhjLThmMjctOTQ2NjYxZGRjYmNlL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"
+  },
+  {
+    "Title":"Night at the Museum",
+    "Year":"2006",
+    "imdbID":"tt0477347",
+    "Type":"movie",
+    "Poster":"https://m.media-amazon.com/images/M/MV5BMTQyOTM4MDMxN15BMl5BanBnXkFtZTcwODg5NTQzMw@@._V1_SX300.jpg"
+ },
+ {
+    "Title":"Night at the Museum: Battle of the Smithsonian",
+    "Year":"2009",
+    "imdbID":"tt1078912",
+    "Type":"movie",
+    "Poster":"https://m.media-amazon.com/images/M/MV5BMGZjZDE2NjUtMzVkNy00N2UyLTg5MjYtYzY1ZmM1YWY3ZTZmXkEyXkFqcGdeQXVyNjk1Njg5NTA@._V1_SX300.jpg"
+ },
+ {
+    "Title":"Night at the Museum: Secret of the Tomb",
+    "Year":"2014",
+    "imdbID":"tt2692250",
+    "Type":"movie",
+    "Poster":"https://m.media-amazon.com/images/M/MV5BMjI1MzM2ODEyMV5BMl5BanBnXkFtZTgwNTIzODAwMzE@._V1_SX300.jpg"
+ },
+ {
+    "Title":"Night at the Museum: Battle of the Smithsonian",
+    "Year":"2009",
+    "imdbID":"tt1425242",
+    "Type":"game",
+    "Poster":"https://m.media-amazon.com/images/M/MV5BMjIzNTIxNzk0Ml5BMl5BanBnXkFtZTgwNDQxOTM5MDE@._V1_SX300.jpg"
+ },
+ {
+   "Title":"Police Story",
+   "Year":"1985",
+   "imdbID":"tt0089374",
+   "Type":"movie",
+   "Poster":"https://m.media-amazon.com/images/M/MV5BMWJhZmI5ZWUtYjgyNy00NTk1LWIzODktYTE3NzQzNzJlOTgzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg"
+},
+{
+   "Title":"New Police Story",
+   "Year":"2004",
+   "imdbID":"tt0386005",
+   "Type":"movie",
+   "Poster":"https://m.media-amazon.com/images/M/MV5BMGRjYjFmYjAtNDExMy00NTRkLTgwMTAtYjI1ZGY1NTYxMjNhXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+},
+{
+   "Title":"Police Story 2",
+   "Year":"1988",
+   "imdbID":"tt0095403",
+   "Type":"movie",
+   "Poster":"https://m.media-amazon.com/images/M/MV5BZDZjOTYwMjAtOWQ5YS00MjVhLTlkMmEtMjUyYTczYTk1YjkyXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"
+},
+{
+   "Title":"Police Story: Lockdown",
+   "Year":"2013",
+   "imdbID":"tt2599716",
+   "Type":"movie",
+   "Poster":"https://m.media-amazon.com/images/M/MV5BMTUwODUyNDM3NV5BMl5BanBnXkFtZTgwNzk0MzA2NTE@._V1_SX300.jpg"
+},
+{
+   "Title":"Police Story",
+   "Year":"1973–1987",
+   "imdbID":"tt0069620",
+   "Type":"series",
+   "Poster":"https://m.media-amazon.com/images/M/MV5BNDcyNzhkOGEtOTY3MC00MDdhLWE2YjAtNzgwZjczMWIwNTRlXkEyXkFqcGdeQXVyNzMzMjU5NDY@._V1_SX300.jpg"
+},
+{
+   "Title":"Police Force: An Inside Story",
+   "Year":"2004",
+   "imdbID":"tt0416120",
+   "Type":"movie",
+   "Poster":"https://m.media-amazon.com/images/M/MV5BMDQxMWVlODktMGZlOC00YTc4LWI0NzYtNDFmNDZiODIwMzUzXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg"
+},
+{
+   "Title":"Police Story: The Freeway Killings",
+   "Year":"1987",
+   "imdbID":"tt0093757",
+   "Type":"movie",
+   "Poster":"https://m.media-amazon.com/images/M/MV5BM2VmZjA2ZmEtOTU4OS00OTY1LWFiOGQtODg2MGFiNjFiMjFmXkEyXkFqcGdeQXVyMzU0NzkwMDg@._V1_SX300.jpg"
+},
+{
+   "Title":"Police Story: Gladiator School",
+   "Year":"1988",
+   "imdbID":"tt0095885",
+   "Type":"movie",
+   "Poster":"https://m.media-amazon.com/images/M/MV5BZjY5ZjdjMDgtZjk0MC00NWE2LWIyYzAtMzk4YjlmMzY1ZmZlXkEyXkFqcGdeQXVyNzMzMjU5NDY@._V1_SX300.jpg"
+},
+{
+   "Title":"Police Story: Monster Manor",
+   "Year":"1988",
+   "imdbID":"tt0095886",
+   "Type":"movie",
+   "Poster":"https://m.media-amazon.com/images/M/MV5BZjFhMDBjZjAtMzc4YS00YzA1LThhYTAtN2M3Y2Y4MTgxZGJkXkEyXkFqcGdeQXVyNzMzMjU5NDY@._V1_SX300.jpg"
+},
+{
+   "Title":"Police Story: Burnout",
+   "Year":"1988",
+   "imdbID":"tt0095883",
+   "Type":"movie",
+   "Poster":"https://m.media-amazon.com/images/M/MV5BMzFjMGMzODctZTU2OC00YjUxLTljNmEtYjg0NGJlM2VjZWMzXkEyXkFqcGdeQXVyNzMzMjU5NDY@._V1_SX300.jpg"
+},
+{
+   "Title":"Alien",
+   "Year":"1979",
+   "imdbID":"tt0078748",
+   "Type":"movie",
+   "Poster":"https://m.media-amazon.com/images/M/MV5BOGQzZTBjMjQtOTVmMS00NGE5LWEyYmMtOGQ1ZGZjNmRkYjFhXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg"
+},
+{
+   "Title":"Alien 3",
+   "Year":"1992",
+   "imdbID":"tt0103644",
+   "Type":"movie",
+   "Poster":"https://m.media-amazon.com/images/M/MV5BYTNiYmQzNTctNzAyZC00ODY2LWE3ZjgtODU1NDA0NGI5ZDY1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg"
+},
+{
+   "Title":"Alien: Covenant",
+   "Year":"2017",
+   "imdbID":"tt2316204",
+   "Type":"movie",
+   "Poster":"https://m.media-amazon.com/images/M/MV5BYzVkMjRhNzctOGQxMC00OGE2LWJhN2EtNmYyODRiMDNlM2ZmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg"
+},
+{
+   "Title":"Alien: Resurrection",
+   "Year":"1997",
+   "imdbID":"tt0118583",
+   "Type":"movie",
+   "Poster":"https://m.media-amazon.com/images/M/MV5BMTA1NzE0YTAtOTc2Yy00YzlmLWFjMzktOTAxMjZkMTkwYWQ2XkEyXkFqcGdeQXVyMjMwNDgzNjc@._V1_SX300.jpg"
+},
+{
+   "Title":"Alien vs. Predator",
+   "Year":"2004",
+   "imdbID":"tt0370263",
+   "Type":"movie",
+   "Poster":"https://m.media-amazon.com/images/M/MV5BMTU4MjIwMTcyMl5BMl5BanBnXkFtZTYwMTYwNDA3._V1_SX300.jpg"
+},
+{
+   "Title":"Resident Alien",
+   "Year":"2021–",
+   "imdbID":"tt8690918",
+   "Type":"series",
+   "Poster":"https://m.media-amazon.com/images/M/MV5BMTQzODE1MzYtMTM5Mi00YWM1LTgwZTctNTEzMWI2ZGQ3NWM1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+},
+{
+   "Title":"My Stepmother Is an Alien",
+   "Year":"1988",
+   "imdbID":"tt0095687",
+   "Type":"movie",
+   "Poster":"https://m.media-amazon.com/images/M/MV5BNzhiMjRlMDEtYzYwNi00MzY5LTlmZDgtOTM2ZDBjN2Y2N2FlXkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_SX300.jpg"
+},
+{
+   "Title":"Alien Nation",
+   "Year":"1988",
+   "imdbID":"tt0094631",
+   "Type":"movie",
+   "Poster":"https://m.media-amazon.com/images/M/MV5BZjRlYjI2NWUtMmY5Mi00YTcyLTg5MzUtNTE2ZmRiMzNjYjA0XkEyXkFqcGdeQXVyNzc5MjA3OA@@._V1_SX300.jpg"
+},
+{
+   "Title":"Ben 10: Alien Force",
+   "Year":"2008–2010",
+   "imdbID":"tt1192169",
+   "Type":"series",
+   "Poster":"https://m.media-amazon.com/images/M/MV5BYmQwYTc1ZDEtMzU3My00OTIzLWE1YmEtYmUyMmMzZTI2ZWNlXkEyXkFqcGdeQXVyOTgwMzk1MTA@._V1_SX300.jpg"
+},
+{
+   "Title":"Alien Raiders",
+   "Year":"2008",
+   "imdbID":"tt0996979",
+   "Type":"movie",
+   "Poster":"https://m.media-amazon.com/images/M/MV5BZjRkMDY3NDAtYjQ3Zi00ZmJhLWJiOWEtNzc5NTllMjM3ZmY1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+}
+    ],
+    "totalResults":"736",
+    "Response":"True"
+ }

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <link href="style.css" rel="stylesheet">
+
+    <style>
+        .card {
+  width:20%;
+  display:inline-block;
+  margin:20px 0;
+  padding:0 5px;
+}
+@media (max-width: 992px) {
+    .card {
+      width: 50%;
+    }
+   }
+@media (max-width: 576px) {
+    .card {
+      width: 100%;
+    }
+   }
+    </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">FILMS</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#films">Films</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Recherche" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Chercher</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+    
+      <header>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img src="img/lotr.jpg" alt="">
+                <div class="cover">
+                    <div class="container">
+                        <div class="header-content">
+                            <div class="line"></div>
+                            <h2>Le Retour du Roi</h2>
+                            <h1>Lord Of The Rings</h1>
+                            <h4>Pourquoi c'est le meilleur film de la trilogie ?</h4>
+                        </div>
+                    </div>
+                 </div>
+            </div>                    
+            <div class="item">
+                <img src="img/mi.jpg" alt="">
+                <div class="cover">
+                    <div class="container">
+                        <div class="header-content">
+                            <div class="line animated bounceInLeft"></div>
+                            <h2>Tom Cruise</h2>
+                            <h1>Mission : Impossible</h1>
+                            <h4>Avec Fallout, la franchise revient en fanfare.</h4>
+                        </div>
+                    </div>
+                 </div>
+            </div>                
+            <div class="item">
+                <img src="img/starwars.jpeg" alt="">
+                <div class="cover">
+                    <div class="container">
+                        <div class="header-content">
+                            <div class="line animated bounceInLeft"></div>
+                            <h2>Première trilogie</h2>
+                            <h1>Star Wars</h1>
+                            <h4>Pourquoi elle reste inégalée ?</h4>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container-fluid" id="films">
+      <div class="row">
+        <div class="list-movies"></div>
+  
+        </div>
+        </div>
+       <!-- <div class="container-fluid">
+        <div class="row">
+          <div class="list-movies">
+          </div></div>
+          <h5></h5>
+        </div>-->
+   
+
+    <!-- Footer -->
+<footer class="page-footer font-small blue">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2022 Copyright:
+    <a href="https://sebastien-devos.fr" target="_blank"> SEBDVS WEB</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+<script src="main.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    dots:false,
+    nav:true,
+    mouseDrag:false,
+    autoplay:true,
+    animateOut: 'slideOutUp',
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+});
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+    </script>
+
+
+</body>
+</html>
