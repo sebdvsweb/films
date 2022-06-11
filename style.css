@@ -146,7 +146,7 @@ header .item {
     opacity: 1;
   }
 
-   .list-movies{
+   .list-movies, #list-movies {
     display: flex;
     flex-wrap: wrap;
 }

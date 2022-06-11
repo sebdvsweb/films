@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recherche</title>
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="style.css" rel="stylesheet">
+
+    <style>
+        .card {
+  width:20%;
+  display:inline-block;
+  margin:20px 0;
+  padding:0 5px;
+}
+
+.spaced_top {
+  padding-top:90px;
+}
+
+.spaced_bottom {
+  padding-bottom:90px;
+}
+
+@media (max-width: 992px) {
+    .card {
+      width: 50%;
+    }
+   }
+@media (max-width: 576px) {
+    .card {
+      width: 100%;
+    }
+   }
+    </style>
+
+
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">FILMS</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#films">Films</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="search.html">Chercher un film</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header>
+    <div class="container-fluid">
+      <div class="row">
+      <img src="img/goonies.jpg" width="100%" class="img-fluid" />
+    </div>
+    </div>
+  </header>
+    
+  <div class="col-md-12 spaced_top">
+      <h2>Rechercher un film</h2>
+      <br>
+      <div class="row">
+        <div class="col-md-12" style="background-color:brown; padding:20px">
+      <input type="text" placeholder="Chercher">
+      <button id="any">🔍</button>
+    </div>
+    </div>
+  </div>
+  <div class="col-md-12 spaced_top">
+  <div id="moviesList">
+</div>
+</div>
+   
+
+    <!-- Footer -->
+<footer class="page-footer font-small blue">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2022 Copyright:
+    <a href="https://sebastien-devos.fr" target="_blank"> SEBDVS WEB</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+
+    async function getMovies(searchValue) {
+      const url = "https://www.omdbapi.com/?s="+searchValue+"&plot=short&apikey=2a4831ba"
+      const response = await fetch(url)
+      const data = await response.json()
+      return data.Search
+    }
+    
+    function generateMoviesList(searchValue) {
+      getMovies(searchValue).then(function (movies) {
+        console.log(movies)
+    
+        movies.forEach(function (movie) {
+          const card = document.createElement("a")
+          card.classList.add("card")
+          card.setAttribute("href", "https://www.imdb.com/title/" + movie.imdbID)
+          card.setAttribute("target", "_blank")
+    
+          const img = document.createElement("img")
+          img.setAttribute("src", movie.Poster)
+          img.classList.add("card-img-top")
+          card.appendChild(img)
+    
+          const cardBody = document.createElement("div")
+          cardBody.classList.add("card-body")
+          card.appendChild(cardBody)
+    
+          const cardTitle = document.createElement("h5")
+          cardTitle.classList.add("card-title")
+          cardTitle.textContent = movie.Title
+          cardBody.appendChild(cardTitle)
+    
+          const cardText = document.createElement("p")
+          cardText.classList.add("card-text")
+          cardText.textContent = movie.Year
+          cardBody.appendChild(cardText)
+    
+          document.querySelector("#moviesList").appendChild(card)
+        })
+      })
+    }
+    
+    ////////////////////////
+    // Execution du code au chargement de la page
+    
+    // Au chargement, on génère la liste par défaut avec recherche star wars
+    // Les espace et accents seront transformés automatiquement par le navigateur
+    generateMoviesList("star wars");
+    
+    // Au clic sur le bouton, on envoie la recherche tapée à la même fonction
+    // Après avoir vidé le HTML
+    document.querySelector("#any").addEventListener("click", search_any)
+    
+function search_any() {
+      const searchValue = document.querySelector("input").value
+      
+      document.querySelector("#moviesList").innerHTML = ""
+      generateMoviesList(searchValue)
+    }
+        </script>
+
+</body>
+</html>

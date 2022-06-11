@@ -30,6 +30,13 @@ console.log(movies);
     });
 })
 
+document.querySelector("button").addEventListener("click", function () {
+    const searchValue = document.querySelector("input").value
+    
+    document.querySelector("#moviesList").innerHTML = ""
+    generateMoviesList(searchValue)
+  })
+
 
 /*
 
